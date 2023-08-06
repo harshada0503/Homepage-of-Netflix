@@ -105,6 +105,9 @@ nav button{
 .features{
     padding: 50px 12%;
     font-size: 22px;
+    padding: 50px 15% 10px;
+    border-top: 6px solid #333;
+
 }
 .row{
     display: flex;
@@ -112,26 +115,32 @@ nav button{
     align-items: center;
     flex-wrap: wrap;
     padding: 50px 0;
+    
 }
 .text-col{
     flex-basis: 50%;
     margin-bottom: 20px;
+    
 }
 
 .img-col{
     flex-basis: 50%;
     margin-bottom: 20px;
+    
 }
 .img-col img{
     display: block;
     width: 90%;
     margin: auto;
+    
 }
 
 .features h2{
     font-size: 50px;
     font-weight: 600;
     margin-bottom: 20px;
+    
+    
 }
 
 /*--------------faq----------------*/
@@ -139,6 +148,9 @@ nav button{
     padding: 10px 12%;
     text-align: center;
     font-size: 18px;
+    padding: 50px 15% 10px;
+    border-top: 6px solid #333;
+
 }
 
 .faq h2{
@@ -147,7 +159,7 @@ nav button{
 }
 
 .accordion{
-    margin: 60px;
+    margin: 60px auto;
     width: 100%;
     max-width: 750px;
 }
@@ -198,11 +210,10 @@ input[type="radio"]{
 }
 .faq .email-signup{
     max-width: 600px;
-    margin: 60px auto 60px;
+    margin: 20px auto 60px;
 
 }
 .faq small{
-    margin: 60px;
     font-size: 13px;
     
 }
